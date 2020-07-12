@@ -24,7 +24,6 @@ public class Sprite {
 
     /* Getters and Setters */
 
-
     public void setPosition(double posX, double posY) {
         this.mPosX = posX;
         this.mPosY = posY;
@@ -40,6 +39,7 @@ public class Sprite {
     }
 
     public void addVelocity(double velX, double velY) {
-
+        this.mVelX += velX;
+        this.mVelY += velY;
     }
 }

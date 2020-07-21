@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ca9af9c1-c67b-4f67-bfb7-9433c7b5aca2" name="Default Changelist" comment="Added javafx Signup/Signin/Welcome pages">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RocketBounce/out/production/RocketBounce/images/rocket.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RocketBounce/out/production/RocketBounce/main/signin.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RocketBounce/out/production/RocketBounce/main/signup.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RocketBounce/out/production/RocketBounce/main/welcome.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RocketBounce/src/main/signin.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RocketBounce/src/main/signup.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RocketBounce/src/main/welcome.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RocketBounce/RocketBounce.iml" beforeDir="false" afterPath="$PROJECT_DIR$/RocketBounce/RocketBounce.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RocketBounce/out/production/RocketBounce/main/sample.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RocketBounce/src/main/DbConnect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RocketBounce/src/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/RocketBounce/src/main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RocketBounce/src/main/sample.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RocketBounce/src/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/RocketBounce/src/module-info.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1eawZBInfK9q6vI97vwXlLmwnRM" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/RocketBounce/out/production/RocketBounce/main" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.JavaFX" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Zernab Gohar\IdeaProjects\RocketBounce\RocketBounce\out\production\RocketBounce\images" />
+      <recent name="C:\Users\Zernab Gohar\IdeaProjects\RocketBounce\RocketBounce\out\production\RocketBounce\main" />
+      <recent name="C:\Users\Zernab Gohar\IdeaProjects\RocketBounce\RocketBounce\src\main" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Zernab Gohar\IdeaProjects\RocketBounce\RocketBounce\out\production\RocketBounce\main" />
+      <recent name="C:\Users\Zernab Gohar\IdeaProjects\RocketBounce\RocketBounce\src\main" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.Main" />
+      <module name="RocketBounce" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ca9af9c1-c67b-4f67-bfb7-9433c7b5aca2" name="Default Changelist" comment="" />
+      <created>1594573064574</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1594573064574</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added javafx Signup/Signin/Welcome pages" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added javafx Signup/Signin/Welcome pages" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="121" y="0" key="#Project_Structure" timestamp="1594663830861">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="121" y="0" key="#Project_Structure/0.0.1280.680/-1920.0.1920.1040@0.0.1280.680" timestamp="1594663830861" />
+    <state x="2467" y="88" key="CommitChangelistDialog2" timestamp="1595290816237">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2467" y="88" key="CommitChangelistDialog2/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1595290816237" />
+    <state x="2012" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1595290640492">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2012" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1595290640492" />
+    <state x="2381" y="96" key="FileChooserDialogImpl" timestamp="1595283350514">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2381" y="96" key="FileChooserDialogImpl/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1595283350514" />
+    <state width="1877" height="163" key="GridCell.Tab.0.bottom" timestamp="1594664119363">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1594664119363" />
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680/-1920.0.1920.1040@0.0.1280.680" timestamp="1594663931230" />
+    <state width="1877" height="163" key="GridCell.Tab.0.center" timestamp="1594664119363">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="163" key="GridCell.Tab.0.center/0.0.1280.680/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1594664119363" />
+    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680/-1920.0.1920.1040@0.0.1280.680" timestamp="1594663931230" />
+    <state width="1877" height="163" key="GridCell.Tab.0.left" timestamp="1594664119363">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="163" key="GridCell.Tab.0.left/0.0.1280.680/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1594664119363" />
+    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680/-1920.0.1920.1040@0.0.1280.680" timestamp="1594663931229" />
+    <state width="1877" height="163" key="GridCell.Tab.0.right" timestamp="1594664119363">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="163" key="GridCell.Tab.0.right/0.0.1280.680/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1594664119363" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680/-1920.0.1920.1040@0.0.1280.680" timestamp="1594663931230" />
+    <state x="2102" y="0" key="SettingsEditor" timestamp="1595283364618">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="121" y="0" key="SettingsEditor/0.0.1280.680/-1920.0.1920.1040@0.0.1280.680" timestamp="1594663743800" />
+    <state x="121" y="0" key="SettingsEditor/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1594761472773" />
+    <state x="2102" y="0" key="SettingsEditor/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1595283364618" />
+    <state x="2012" y="92" width="1736" height="856" maximized="true" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1595290640493">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2012" y="92" width="1736" height="856" maximized="true" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1595290640493" />
+    <state x="2071" y="8" width="1736" height="856" maximized="true" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1595290640493">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2071" y="8" width="1736" height="856" maximized="true" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1595290640493" />
+    <state x="2012" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.SelectionHistoryDialog" timestamp="1595290214090">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2012" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.SelectionHistoryDialog/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1595290214090" />
+  </component>
+</project>

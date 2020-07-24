@@ -11,6 +11,7 @@ public class ConnectionUtil {
             Connection con = DriverManager.getConnection("jdbc:mysql://db-mysql-sfo2-06807-do-user-7772383-0.a.db.ondigitalocean.com:25060/defaultdb", "doadmin", "xh8qfkfe6qd1iiq2");
             return con;
         }catch(Exception ex){
+            System.err.println("ConnectionUtil : "+ex.getMessage());
             return null;
         }
     }

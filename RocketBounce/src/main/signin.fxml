@@ -23,8 +23,8 @@
                   <Font size="42.0" />
                </font>
             </Button>
-            <TextField layoutX="117.0" layoutY="257.0" promptText="email" />
-            <PasswordField layoutX="117.0" layoutY="314.0" promptText="password" />
+            <TextField fx:id="textEmail" layoutX="117.0" layoutY="257.0" onAction="#login" promptText="email" />
+            <PasswordField fx:id="textPassword" layoutX="117.0" layoutY="314.0" onAction="#login" promptText="password" />
             <Button layoutX="117.0" layoutY="359.0" mnemonicParsing="false" onAction="#login" text="Login" />
             <Button layoutX="117.0" layoutY="421.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="154.0" text="Forgot Password" />
          </children>

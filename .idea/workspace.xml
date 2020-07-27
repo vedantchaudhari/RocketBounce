@@ -19,11 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="334c8ec3-93df-49fd-928d-981b889614ef" name="Default Changelist" comment="Database settings">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
+    <list default="true" id="334c8ec3-93df-49fd-928d-981b889614ef" name="Default Changelist" comment="Database settings - able to sign into database with credentials and get to mainmenu.fxml">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RocketBounce/src/main/SignInController.java" beforeDir="false" afterPath="$PROJECT_DIR$/RocketBounce/src/main/SignInController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RocketBounce/src/rocketbounce/util/DatabaseConnectionUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/RocketBounce/src/rocketbounce/util/DatabaseConnectionUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RocketBounce/src/main/signin.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/RocketBounce/src/main/signin.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,7 +108,8 @@
       <option name="presentableId" value="Default" />
       <updated>1594573064574</updated>
       <workItem from="1595564144578" duration="197000" />
-      <workItem from="1595597812658" duration="23679000" />
+      <workItem from="1595597812658" duration="24980000" />
+      <workItem from="1595877922921" duration="1851000" />
     </task>
     <servers />
   </component>
@@ -130,7 +130,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added javafx Signup/Signin/Welcome pages" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added javafx Signup/Signin/Welcome pages" />
+    <MESSAGE value="Database settings - able to sign into database with credentials and get to mainmenu.fxml" />
+    <option name="LAST_COMMIT_MESSAGE" value="Database settings - able to sign into database with credentials and get to mainmenu.fxml" />
   </component>
   <component name="WindowStateProjectService">
     <state x="121" y="0" key="#Project_Structure" timestamp="1594663830861">
@@ -161,30 +162,38 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2381" y="96" key="FileChooserDialogImpl/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1595283350514" />
-    <state width="1156" height="170" key="GridCell.Tab.0.bottom" timestamp="1595629209108">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1158" height="170" key="GridCell.Tab.0.bottom" timestamp="1595879627517">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1877" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1594664119363" />
     <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680/-1920.0.1920.1040@0.0.1280.680" timestamp="1594663931230" />
-    <state width="1156" height="170" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1595629209108" />
-    <state width="1156" height="170" key="GridCell.Tab.0.center" timestamp="1595629209108">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1156" height="170" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1595629634913" />
+    <state width="1158" height="170" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1595879627517" />
+    <state width="1158" height="170" key="GridCell.Tab.0.center" timestamp="1595879627517">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1877" height="163" key="GridCell.Tab.0.center/0.0.1280.680/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1594664119363" />
     <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680/-1920.0.1920.1040@0.0.1280.680" timestamp="1594663931230" />
-    <state width="1156" height="170" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1595629209108" />
-    <state width="1156" height="170" key="GridCell.Tab.0.left" timestamp="1595629209108">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1156" height="170" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1595629634913" />
+    <state width="1158" height="170" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1595879627517" />
+    <state width="1158" height="170" key="GridCell.Tab.0.left" timestamp="1595879627517">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1877" height="163" key="GridCell.Tab.0.left/0.0.1280.680/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1594664119363" />
     <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680/-1920.0.1920.1040@0.0.1280.680" timestamp="1594663931229" />
-    <state width="1156" height="170" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1595629209108" />
-    <state width="1156" height="170" key="GridCell.Tab.0.right" timestamp="1595629209108">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1156" height="170" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1595629634913" />
+    <state width="1158" height="170" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1595879627517" />
+    <state width="1158" height="170" key="GridCell.Tab.0.right" timestamp="1595879627517">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1877" height="163" key="GridCell.Tab.0.right/0.0.1280.680/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1594664119363" />
     <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680/-1920.0.1920.1040@0.0.1280.680" timestamp="1594663931230" />
-    <state width="1156" height="170" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1595629209108" />
+    <state width="1156" height="170" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1595629634913" />
+    <state width="1158" height="170" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1595879627517" />
+    <state x="337" y="140" key="MultipleFileMergeDialog" timestamp="1595630217441">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="337" y="140" key="MultipleFileMergeDialog/0.0.1366.728@0.0.1366.728" timestamp="1595630217441" />
     <state x="2102" y="0" key="SettingsEditor" timestamp="1595283364618">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
@@ -207,9 +216,9 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2012" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.SelectionHistoryDialog/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1595290214090" />
-    <state x="418" y="163" key="git4idea.merge.GitPullDialog" timestamp="1595564330303">
+    <state x="418" y="163" key="git4idea.merge.GitPullDialog" timestamp="1595630014238">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="418" y="163" key="git4idea.merge.GitPullDialog/0.0.1366.728@0.0.1366.728" timestamp="1595564330303" />
+    <state x="418" y="163" key="git4idea.merge.GitPullDialog/0.0.1366.728@0.0.1366.728" timestamp="1595630014238" />
   </component>
 </project>

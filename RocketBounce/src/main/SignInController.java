@@ -38,8 +38,8 @@ public class SignInController implements Initializable {
 
     @FXML
     private void login(ActionEvent event) {
-        String email = textEmail.getText().toString();
-        String password = textPassword.getText().toString();
+        String email = textEmail.getText();
+        String password = textPassword.getText();
 
         String sql = "SELECT * FROM Person WHERE email = ? and password = ?";
 
@@ -49,13 +49,13 @@ public class SignInController implements Initializable {
             preparedStatement.setString(2, password);
             resultSet = preparedStatement.executeQuery();
             if (!resultSet.next()) {
-                infoBox("Enter Correct Email and Password", "Failed", null);
+                infoBox("Email and/or Password is incorrect!", "Login", null);
             } else {
-                infoBox("Login Successfull", "Success", null);
+                infoBox("Login Successful", "Login", null);
                 Node source = (Node) event.getSource();
                 stage = (Stage) source.getScene().getWindow();
                 stage.close();
-                scene = new Scene(FXMLLoader.load(getClass().getResource("signup.fxml")));
+                scene = new Scene(FXMLLoader.load(getClass().getResource("mainmenu.fxml")));
                 stage.setScene(scene);
                 stage.show();
             }

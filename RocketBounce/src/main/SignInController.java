@@ -41,7 +41,7 @@ public class SignInController implements Initializable {
         String email = textEmail.getText();
         String password = textPassword.getText();
 
-        String sql = "SELECT * FROM Person WHERE email = ? and password = ?";
+        String sql = "SELECT * FROM user WHERE email = ? and password = ?";
 
         try {
             preparedStatement = connection.prepareStatement(sql);

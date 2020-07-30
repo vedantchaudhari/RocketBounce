@@ -2,7 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ca9af9c1-c67b-4f67-bfb7-9433c7b5aca2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/RocketBounce/src/main/customize.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RocketBounce/src/main/highscores.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RocketBounce/src/main/pause.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RocketBounce/src/main/profile.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RocketBounce/src/main/stageselect.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RocketBounce/out/production/RocketBounce/images/rocket.png" beforeDir="false" afterPath="$PROJECT_DIR$/RocketBounce/src/images/rocket.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RocketBounce/src/main/mainmenu.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/RocketBounce/src/main/mainmenu.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RocketBounce/src/main/signin.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/RocketBounce/src/main/signin.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,14 +45,15 @@
     <property name="settings.editor.selected.configurable" value="preferences.JavaFX" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Zernab Gohar\IdeaProjects\RocketBounce\RocketBounce\out\production\RocketBounce\images" />
-      <recent name="C:\Users\Zernab Gohar\IdeaProjects\RocketBounce\RocketBounce\out\production\RocketBounce\main" />
-      <recent name="C:\Users\Zernab Gohar\IdeaProjects\RocketBounce\RocketBounce\src\main" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Zernab Gohar\IdeaProjects\RocketBounce\RocketBounce\src\main" />
       <recent name="C:\Users\Zernab Gohar\IdeaProjects\RocketBounce\RocketBounce\out\production\RocketBounce\main" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Zernab Gohar\IdeaProjects\RocketBounce\RocketBounce\src\images" />
+      <recent name="C:\Users\Zernab Gohar\IdeaProjects\RocketBounce\RocketBounce\out\production\RocketBounce\images" />
+      <recent name="C:\Users\Zernab Gohar\IdeaProjects\RocketBounce\RocketBounce\out\production\RocketBounce\main" />
+      <recent name="C:\Users\Zernab Gohar\IdeaProjects\RocketBounce\RocketBounce\src\main" />
     </key>
   </component>
   <component name="RunManager">

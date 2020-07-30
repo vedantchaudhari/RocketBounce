@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ca9af9c1-c67b-4f67-bfb7-9433c7b5aca2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RocketBounce/src/utils/ConnectionUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/RocketBounce/src/utils/ConnectionUtil.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,6 +13,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="FxmlFile" />
       </list>
     </option>
   </component>
@@ -30,21 +30,21 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$APPLICATION_HOME_DIR$/javafx-sdk-11.0.2/lib/src.zip!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/RocketBounce/src/main" />
     <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.JavaFX" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Zernab Gohar\IdeaProjects\RocketBounce\RocketBounce\out\production\RocketBounce\main" />
-      <recent name="C:\Users\Zernab Gohar\IdeaProjects\RocketBounce\RocketBounce\src\main" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Zernab Gohar\IdeaProjects\RocketBounce\RocketBounce\out\production\RocketBounce\images" />
       <recent name="C:\Users\Zernab Gohar\IdeaProjects\RocketBounce\RocketBounce\out\production\RocketBounce\main" />
       <recent name="C:\Users\Zernab Gohar\IdeaProjects\RocketBounce\RocketBounce\src\main" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Zernab Gohar\IdeaProjects\RocketBounce\RocketBounce\src\main" />
+      <recent name="C:\Users\Zernab Gohar\IdeaProjects\RocketBounce\RocketBounce\out\production\RocketBounce\main" />
     </key>
   </component>
   <component name="RunManager">

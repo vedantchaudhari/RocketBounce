@@ -50,24 +50,39 @@ public class SignupController implements Initializable {
             preparedStatement.setString(2, password);
             preparedStatement.executeUpdate();
 
+            if (validateEmail(email)) {
+                infoBox("Please enter a valid email address", "Invalid Email Address", null);
+            } else {
+
                 infoBox("Login Successful", "Login", null);
                 Node source = (Node) event.getSource();
                 stage = (Stage) source.getScene().getWindow();
                 stage.close();
                 scene = new Scene(FXMLLoader.load(getClass().getResource("signin.fxml")));
                 stage.setScene(scene);
-                stage.show();
+                stage.show();}
         } catch (Exception e) {
             e.printStackTrace();
         }
     }
 
+    //Set up Alerts
     public static void infoBox(String infoMessage, String titleBar, String headerMessage) {
         Alert alert = new Alert(AlertType.INFORMATION);
         alert.setTitle(titleBar);
         alert.setHeaderText(headerMessage);
         alert.setContentText(infoMessage);
         alert.showAndWait();
+    }
+
+    //Boolean method to verify email address
+    private boolean validateEmail(String email) {
+        if (email.matches("^[_A-Za-z0-9-\\+]+(\\.[_A-Za-z0-9-]+)"+"*@[A-Za-z0-9-]+(\\.[A-Za-z0-9]+)*" +
+                "(\\.[A-Za-z]{2,})$")){
+            return false;
+        } else {
+            return true;
+        }
     }
 
     @Override

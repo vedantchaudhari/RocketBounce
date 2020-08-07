@@ -19,13 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="334c8ec3-93df-49fd-928d-981b889614ef" name="Default Changelist" comment="Test">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RocketBounce/RocketBounce.iml" beforeDir="false" afterPath="$PROJECT_DIR$/RocketBounce/RocketBounce.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RocketBounce/src/main/SignupController.java" beforeDir="false" afterPath="$PROJECT_DIR$/RocketBounce/src/main/SignupController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/RocketBounce/main/mainmenu.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RocketBounce/main/mainmenu.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/RocketBounce/module-info.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RocketBounce/module-info.class" afterDir="false" />
-    </list>
+    <list default="true" id="334c8ec3-93df-49fd-928d-981b889614ef" name="Default Changelist" comment="Test" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -170,7 +164,8 @@
     <MESSAGE value="Database settings - able to sign into database with credentials and get to mainmenu.fxml" />
     <MESSAGE value="Database settings - able to sign up with email and password and use credentials to log into main game screen." />
     <MESSAGE value="Test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Test" />
+    <MESSAGE value="merge with test" />
+    <option name="LAST_COMMIT_MESSAGE" value="merge with test" />
   </component>
   <component name="WindowStateProjectService">
     <state x="121" y="0" key="#Project_Structure" timestamp="1594663830861">
@@ -270,9 +265,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="523" y="23" width="579" height="801" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1596217873953" />
-    <state x="418" y="163" key="git4idea.merge.GitPullDialog" timestamp="1595630014238">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="470" y="184" key="git4idea.merge.GitPullDialog" timestamp="1596830189899">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="418" y="163" key="git4idea.merge.GitPullDialog/0.0.1366.728@0.0.1366.728" timestamp="1595630014238" />
+    <state x="470" y="184" key="git4idea.merge.GitPullDialog/0.0.1536.824@0.0.1536.824" timestamp="1596830189899" />
   </component>
 </project>

@@ -1,6 +1,8 @@
 package main;
 
 import rocketbounce.util.DatabaseConnectionUtil;
+
+import java.io.IOException;
 import java.net.URL;
 import java.sql.*;
 import java.util.ResourceBundle;
@@ -63,6 +65,20 @@ public class SignInController implements Initializable {
         } catch (Exception e) {
             e.printStackTrace();
         }
+    }
+
+    @FXML
+    private void forgotPassword(ActionEvent event) {
+        Node source = (Node) event.getSource();
+        stage = (Stage) source.getScene().getWindow();
+        stage.close();
+        try {
+            scene = new Scene(FXMLLoader.load(getClass().getResource("ForgotPassword.fxml")));
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        stage.setScene(scene);
+        stage.show();
     }
 
     public static void infoBox(String infoMessage, String titleBar, String headerMessage) {

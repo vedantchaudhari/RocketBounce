@@ -27,6 +27,12 @@ public class SignupController implements Initializable {
     @FXML
     private PasswordField textPassword;
 
+    @FXML
+    private TextField textFirstName;
+
+    @FXML
+    private TextField textLastName;
+
     Stage stage = new Stage();
     Scene scene;
 
@@ -42,12 +48,18 @@ public class SignupController implements Initializable {
         String email = textEmail.getText();
         String password = textPassword.getText();
 
-        String sql = "INSERT INTO `defaultdb`.`user` (`email`, `password`) VALUES (?, ?);";
+        String fName = textFirstName.getText();
+        String lName = textLastName.getText();
+
+        String sqlUser = "INSERT INTO `defaultdb`.`user` (`first_name`, `last_name`, `email`, `password`) VALUES (?, ?, ?, ?);";
+
 
         try {
-            preparedStatement = connection.prepareStatement(sql);
-            preparedStatement.setString(1, email);
-            preparedStatement.setString(2, password);
+            preparedStatement = connection.prepareStatement(sqlUser);
+            preparedStatement.setString(1, fName);
+            preparedStatement.setString(2, lName);
+            preparedStatement.setString(3, email);
+            preparedStatement.setString(4, password);
             preparedStatement.executeUpdate();
 
                 infoBox("Login Successful", "Login", null);
@@ -69,6 +81,8 @@ public class SignupController implements Initializable {
         alert.setContentText(infoMessage);
         alert.showAndWait();
     }
+
+
 
     @Override
     public void initialize(URL url, ResourceBundle rb) {

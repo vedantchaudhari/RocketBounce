@@ -33,6 +33,9 @@ public class SignupController implements Initializable {
     @FXML
     private TextField textLastName;
 
+    @FXML
+    private TextField textUserName;
+
     Stage stage = new Stage();
     Scene scene;
 
@@ -49,8 +52,10 @@ public class SignupController implements Initializable {
         String password = textPassword.getText();
         String fName = textFirstName.getText();
         String lName = textLastName.getText();
+        String uName = textUserName.getText();
 
-        String sql = "INSERT INTO `defaultdb`.`user` (`first_name`, `last_name`, `email`, `password`) VALUES (?, ?, ?, ?);";
+        String sql = "INSERT INTO `defaultdb`.`users` (`first_name`, `last_name`, `email`, `password`) VALUES (?, ?, ?, ?);";
+        String sqlUName = "INSERT INTO `defaultdb`.`Players` (`username`) VALUES (?);";
 
         try {
             preparedStatement = connection.prepareStatement(sql);
@@ -58,6 +63,10 @@ public class SignupController implements Initializable {
             preparedStatement.setString(2, lName);
             preparedStatement.setString(3, email);
             preparedStatement.setString(4, password);
+            preparedStatement.executeUpdate();
+
+            preparedStatement = connection.prepareStatement(sqlUName);
+            preparedStatement.setString(1, uName);
             preparedStatement.executeUpdate();
 
             if (validateEmail(email)) {

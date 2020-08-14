@@ -1,6 +1,8 @@
 package main;
 
 import rocketbounce.util.DatabaseConnectionUtil;
+
+import java.io.IOException;
 import java.net.URL;
 import java.sql.*;
 import java.util.ResourceBundle;
@@ -50,7 +52,7 @@ public class SignupController implements Initializable {
         String fName = textFirstName.getText();
         String lName = textLastName.getText();
 
-        String sql = "INSERT INTO `defaultdb`.`user` (`first_name`, `last_name`, `email`, `password`) VALUES (?, ?, ?, ?);";
+        String sql = "INSERT INTO `defaultdb`.`users` (`first_name`, `last_name`, `email`, `password`) VALUES (?, ?, ?, ?);";
 
         try {
             preparedStatement = connection.prepareStatement(sql);
@@ -74,6 +76,20 @@ public class SignupController implements Initializable {
         } catch (Exception e) {
             e.printStackTrace();
         }
+    }
+
+    @FXML
+    private void back(ActionEvent event) {
+        Node source = (Node) event.getSource();
+        stage = (Stage) source.getScene().getWindow();
+        stage.close();
+        try {
+            scene = new Scene(FXMLLoader.load(getClass().getResource("welcome.fxml")));
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        stage.setScene(scene);
+        stage.show();
     }
 
     //Set up Alerts

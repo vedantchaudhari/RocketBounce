@@ -18,7 +18,7 @@
                   <Font size="42.0" />
                </font>
             </Text>
-            <Button layoutX="14.0" layoutY="657.0" mnemonicParsing="false" prefHeight="84.0" prefWidth="99.0" style="-fx-background-color: #a1405f;" text="⬅" textFill="WHITE">
+            <Button layoutX="14.0" layoutY="657.0" mnemonicParsing="false" onAction="#back" prefHeight="84.0" prefWidth="99.0" style="-fx-background-color: #a1405f;" text="⬅" textFill="WHITE">
                <font>
                   <Font size="42.0" />
                </font>

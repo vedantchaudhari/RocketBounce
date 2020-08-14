@@ -43,7 +43,7 @@ public class SignInController implements Initializable {
         String email = textEmail.getText();
         String password = textPassword.getText();
 
-        String sql = "SELECT * FROM user WHERE email = ? and password = ?";
+        String sql = "SELECT * FROM users WHERE email = ? and password = ?";
 
         try {
             preparedStatement = connection.prepareStatement(sql);
@@ -65,6 +65,20 @@ public class SignInController implements Initializable {
         } catch (Exception e) {
             e.printStackTrace();
         }
+    }
+
+    @FXML
+    private void back(ActionEvent event) {
+        Node source = (Node) event.getSource();
+        stage = (Stage) source.getScene().getWindow();
+        stage.close();
+        try {
+            scene = new Scene(FXMLLoader.load(getClass().getResource("welcome.fxml")));
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        stage.setScene(scene);
+        stage.show();
     }
 
     @FXML

@@ -11,7 +11,7 @@
 
 <BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="768.0" prefWidth="1024.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.SignupController">
    <left>
-      <AnchorPane prefHeight="768.0" prefWidth="411.0" style="-fx-background-color: #0b0d34;" BorderPane.alignment="CENTER">
+      <AnchorPane minHeight="1024.0" prefHeight="768.0" prefWidth="411.0" style="-fx-background-color: #0b0d34;" BorderPane.alignment="CENTER">
          <children>
 
             <Text fill="WHITE" layoutX="127.0" layoutY="394.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-weight: bold;" text="SIGN UP">
@@ -19,7 +19,7 @@
                   <Font size="42.0" />
                </font>
             </Text>
-            <Button layoutX="14.0" layoutY="657.0" mnemonicParsing="false" prefHeight="84.0" prefWidth="99.0" style="-fx-background-color: #a1405f;" text="⬅" textFill="WHITE">
+            <Button layoutX="14.0" layoutY="657.0" mnemonicParsing="false" onAction="#back" prefHeight="84.0" prefWidth="99.0" style="-fx-background-color: #a1405f;" text="⬅" textFill="WHITE">
                <font>
                   <Font size="42.0" />
                </font>

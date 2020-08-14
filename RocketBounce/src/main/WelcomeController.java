@@ -35,6 +35,11 @@ public class WelcomeController implements Initializable {
         window.show();
     }
 
+    @FXML
+    public void exit(ActionEvent event) {
+        System.exit(0);
+    }
+
     /**
      * Initializes the controller class.
      */

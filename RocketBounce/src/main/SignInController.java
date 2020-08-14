@@ -108,27 +108,3 @@ public class SignInController implements Initializable {
 
     }
 }
-
-//    public void login(ActionEvent event)  {
-//        try {
-//            String host = "jdbc:mysql://db-mysql-sfo2-06807-do-user-7772383-0.a.db.ondigitalocean.com:25060/defaultdb";
-//            String uName = "doadmin";
-//            String uPass = "xh8qfkfe6qd1iiq2";
-//            Connection con = DriverManager.getConnection(host, uName, uPass);
-//            Statement stat = con.createStatement();
-//            String sql = "select * from Person";
-//            ResultSet rs = stat.executeQuery( sql );
-//
-//            while ( rs.next() ) {
-//                String email = rs.getString("email");
-//                String password = rs.getString("password");
-//
-//
-//                String p =" " + email + " " + password;
-//                System.out.println(p);
-//
-//            }
-//        } catch (SQLException err) {
-//            System.out.println(err.getMessage());
-//        }
-//    }

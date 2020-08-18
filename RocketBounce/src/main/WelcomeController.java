@@ -15,7 +15,7 @@ import javafx.stage.Stage;
 public class WelcomeController implements Initializable {
     @FXML
     public void signin(ActionEvent event) throws IOException {
-        Parent signinParent = FXMLLoader.load(getClass().getResource("signin.fxml"));
+        Parent signinParent = FXMLLoader.load(getClass().getResource("view/signin.fxml"));
         Scene signinScene = new Scene(signinParent);
 
         //This line gets the stage information
@@ -26,7 +26,7 @@ public class WelcomeController implements Initializable {
 
     @FXML
     public void signup(ActionEvent event) throws IOException {
-        Parent signupParent = FXMLLoader.load(getClass().getResource("signup.fxml"));
+        Parent signupParent = FXMLLoader.load(getClass().getResource("view/signup.fxml"));
         Scene signupScene = new Scene(signupParent);
 
         //This line gets the stage information

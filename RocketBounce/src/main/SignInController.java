@@ -57,7 +57,7 @@ public class SignInController implements Initializable {
                 Node source = (Node) event.getSource();
                 stage = (Stage) source.getScene().getWindow();
                 stage.close();
-                scene = new Scene(FXMLLoader.load(getClass().getResource("mainmenu.fxml")));
+                scene = new Scene(FXMLLoader.load(getClass().getResource("view/mainmenu.fxml")));
                 stage.setScene(scene);
                 stage.show();
             }
@@ -73,7 +73,7 @@ public class SignInController implements Initializable {
         stage = (Stage) source.getScene().getWindow();
         stage.close();
         try {
-            scene = new Scene(FXMLLoader.load(getClass().getResource("welcome.fxml")));
+            scene = new Scene(FXMLLoader.load(getClass().getResource("view/welcome.fxml")));
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -87,7 +87,7 @@ public class SignInController implements Initializable {
         stage = (Stage) source.getScene().getWindow();
         stage.close();
         try {
-            scene = new Scene(FXMLLoader.load(getClass().getResource("ForgotPassword.fxml")));
+            scene = new Scene(FXMLLoader.load(getClass().getResource("view/ForgotPassword.fxml")));
         } catch (IOException e) {
             e.printStackTrace();
         }

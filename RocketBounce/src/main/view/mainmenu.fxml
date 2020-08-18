@@ -44,7 +44,7 @@
             </Button>
             <ImageView fitHeight="367.0" fitWidth="255.0" layoutX="707.0" layoutY="359.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../images/rocket.png" />
+                  <Image url="@../../images/rocket.png" />
                </image></ImageView>
             <Button layoutX="239.0" layoutY="650.0" mnemonicParsing="false" onAction="#profile" prefHeight="89.0" prefWidth="98.0" style="-fx-background-color: #a1405f;" text="PROFILE" textFill="WHITE">
                <font>

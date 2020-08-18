@@ -28,7 +28,7 @@
             </Button>
             <ImageView fitHeight="331.0" fitWidth="307.0" layoutX="49.0" layoutY="281.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../images/saturn.png" />
+                  <Image url="@../../images/saturn.png" />
                </image>
             </ImageView>
          </children>

@@ -31,7 +31,7 @@
             <Button layoutX="113.0" layoutY="364.0" mnemonicParsing="false" onAction="#forgotPassword" prefHeight="25.0" prefWidth="154.0" text="Forgot Password" />
             <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="116.0" layoutY="457.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../images/lock.png" />
+                  <Image url="@../../images/lock.png" />
                </image>
             </ImageView>
          </children>

@@ -39,27 +39,27 @@
             </Button>
             <ImageView fitHeight="101.0" fitWidth="155.0" layoutX="462.0" layoutY="514.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../images/lock.png" />
+                  <Image url="@../../images/lock.png" />
                </image>
             </ImageView>
             <ImageView fitHeight="101.0" fitWidth="155.0" layoutX="796.0" layoutY="514.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../images/lock.png" />
+                  <Image url="@../../images/lock.png" />
                </image>
             </ImageView>
             <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="82.0" layoutY="279.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../images/saturn.png" />
+                  <Image url="@../../images/saturn.png" />
                </image>
             </ImageView>
             <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="413.0" layoutY="279.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../images/saturn.png" />
+                  <Image url="@../../images/saturn.png" />
                </image>
             </ImageView>
             <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="747.0" layoutY="279.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../images/saturn.png" />
+                  <Image url="@../../images/saturn.png" />
                </image>
             </ImageView>
          </children>

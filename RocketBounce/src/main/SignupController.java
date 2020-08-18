@@ -18,8 +18,6 @@ import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
 import javafx.stage.Stage;
 
-import static main.SignInController.infoBox;
-
 
 public class SignupController implements Initializable {
 
@@ -70,7 +68,7 @@ public class SignupController implements Initializable {
                 Node source = (Node) event.getSource();
                 stage = (Stage) source.getScene().getWindow();
                 stage.close();
-                scene = new Scene(FXMLLoader.load(getClass().getResource("signin.fxml")));
+                scene = new Scene(FXMLLoader.load(getClass().getResource("view/signin.fxml")));
                 stage.setScene(scene);
                 stage.show();}
         } catch (Exception e) {
@@ -84,7 +82,7 @@ public class SignupController implements Initializable {
         stage = (Stage) source.getScene().getWindow();
         stage.close();
         try {
-            scene = new Scene(FXMLLoader.load(getClass().getResource("welcome.fxml")));
+            scene = new Scene(FXMLLoader.load(getClass().getResource("view/welcome.fxml")));
         } catch (IOException e) {
             e.printStackTrace();
         }

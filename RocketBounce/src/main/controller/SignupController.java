@@ -1,6 +1,6 @@
-package main;
+package main.controller;
 
-import rocketbounce.util.DatabaseConnectionUtil;
+import utils.DatabaseConnectionUtil;
 
 import java.io.IOException;
 import java.net.URL;
@@ -19,7 +19,7 @@ import javafx.scene.control.TextField;
 import javafx.stage.Stage;
 
 
-public class SignInController implements Initializable {
+public class SignupController implements Initializable {
 
     @FXML
     private TextField textEmail;
@@ -27,41 +27,50 @@ public class SignInController implements Initializable {
     @FXML
     private PasswordField textPassword;
 
+    @FXML
+    private TextField textFirstName;
+
+    @FXML
+    private TextField textLastName;
+
     Stage stage = new Stage();
     Scene scene;
 
     Connection connection = null;
     PreparedStatement preparedStatement = null;
-    ResultSet resultSet = null;
 
-    public SignInController() {
+    public SignupController() {
         connection = DatabaseConnectionUtil.connectdb();
     }
 
     @FXML
-    private void login(ActionEvent event) {
+    private void submit(ActionEvent event) {
         String email = textEmail.getText();
         String password = textPassword.getText();
+        String fName = textFirstName.getText();
+        String lName = textLastName.getText();
 
-        String sql = "SELECT * FROM users WHERE email = ? and password = ?";
+        String sql = "INSERT INTO `defaultdb`.`users` (`first_name`, `last_name`, `email`, `password`) VALUES (?, ?, ?, ?);";
 
         try {
             preparedStatement = connection.prepareStatement(sql);
-            preparedStatement.setString(1, email);
-            preparedStatement.setString(2, password);
-            resultSet = preparedStatement.executeQuery();
-            if (!resultSet.next()) {
-                infoBox("Email and/or Password is incorrect!", "Login", null);
+            preparedStatement.setString(1, fName);
+            preparedStatement.setString(2, lName);
+            preparedStatement.setString(3, email);
+            preparedStatement.setString(4, password);
+            preparedStatement.executeUpdate();
+
+            if (validateEmail(email)) {
+                infoBox("Please enter a valid email address", "Invalid Email Address", null);
             } else {
+
                 infoBox("Login Successful", "Login", null);
                 Node source = (Node) event.getSource();
                 stage = (Stage) source.getScene().getWindow();
                 stage.close();
-                scene = new Scene(FXMLLoader.load(getClass().getResource("view/mainmenu.fxml")));
+                scene = new Scene(FXMLLoader.load(getClass().getResource("view/signin.fxml")));
                 stage.setScene(scene);
-                stage.show();
-            }
-
+                stage.show();}
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -81,26 +90,23 @@ public class SignInController implements Initializable {
         stage.show();
     }
 
-    @FXML
-    private void forgotPassword(ActionEvent event) {
-        Node source = (Node) event.getSource();
-        stage = (Stage) source.getScene().getWindow();
-        stage.close();
-        try {
-            scene = new Scene(FXMLLoader.load(getClass().getResource("view/ForgotPassword.fxml")));
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-        stage.setScene(scene);
-        stage.show();
-    }
-
+    //Set up Alerts
     public static void infoBox(String infoMessage, String titleBar, String headerMessage) {
         Alert alert = new Alert(AlertType.INFORMATION);
         alert.setTitle(titleBar);
         alert.setHeaderText(headerMessage);
         alert.setContentText(infoMessage);
         alert.showAndWait();
+    }
+
+    //Boolean method to verify email address
+    private boolean validateEmail(String email) {
+        if (email.matches("^[_A-Za-z0-9-\\+]+(\\.[_A-Za-z0-9-]+)"+"*@[A-Za-z0-9-]+(\\.[A-Za-z0-9]+)*" +
+                "(\\.[A-Za-z]{2,})$")){
+            return false;
+        } else {
+            return true;
+        }
     }
 
     @Override

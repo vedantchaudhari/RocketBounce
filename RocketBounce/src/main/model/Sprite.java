@@ -32,6 +32,17 @@ public class Sprite implements GameObject {
     }
 
     /*
+     * Resize and set the sprite image asset
+     * @param specified file path
+     * @param width
+     * @param height
+     */
+    public void resizeImage(String filepath, int width, int height) {
+        Image toReturn = new Image(filepath, width, height, false, false);
+        setImage(toReturn);
+    }
+
+    /*
      * Set Position of Sprite
      * @param posX Target X Position
      * @param posY Target Y Position

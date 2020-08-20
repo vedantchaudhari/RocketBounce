@@ -7,16 +7,15 @@ import javafx.scene.Scene;
 import javafx.scene.canvas.Canvas;
 import javafx.stage.Stage;
 
-public class Game extends Application {
+public class Game  {
     private Group root;
 
-    @Override
-    public void start(Stage gameStage) throws Exception {
+    public void startGame(Stage gameStage) throws Exception {
         gameStage.setTitle("Rocket Bounce");
         gameStage.setResizable(false);
 
         Parent root = initScene();
-        Scene main = new Scene(root, 1024, 768);
+       Scene main = new Scene(root, 1024, 768);
         gameStage.setScene(main);
         gameStage.show();
     }

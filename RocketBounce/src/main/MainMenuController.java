@@ -3,14 +3,19 @@ package main;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
+import javafx.scene.Node;
+import javafx.stage.Stage;
+
 import java.net.URL;
 import java.util.ResourceBundle;
 
 public class MainMenuController implements Initializable  {
 
     @FXML
-    private void play(ActionEvent event) {
-
+    private void play(ActionEvent event) throws Exception {
+        main.Game game = new main.Game();
+        Stage window = (Stage)((Node)event.getSource()).getScene().getWindow();
+        game.startGame(window);
     }
 
     @FXML

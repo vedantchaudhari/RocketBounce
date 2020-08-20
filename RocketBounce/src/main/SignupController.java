@@ -1,6 +1,6 @@
 package main;
 
-import rocketbounce.util.DatabaseConnectionUtil;
+import utils.DatabaseConnectionUtil;
 
 import java.io.IOException;
 import java.net.URL;

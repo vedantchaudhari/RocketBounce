@@ -1,4 +1,4 @@
-package rocketbounce.util;
+package utils;
 
 import java.sql.*;
 import javax.swing.*;

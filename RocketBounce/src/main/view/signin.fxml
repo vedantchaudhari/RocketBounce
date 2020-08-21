@@ -10,12 +10,12 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="768.0" prefWidth="411.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.SignInController">
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="768.0" prefWidth="1024.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.SignInController">
    <left>
-      <AnchorPane prefHeight="768.0" prefWidth="411.0" style="-fx-background-color: #0b0d34;" BorderPane.alignment="CENTER">
+      <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="768.0" prefWidth="1024.0" style="-fx-background-color: #0b0d34;" BorderPane.alignment="CENTER">
          <children>
 
-            <Text fill="WHITE" layoutX="112.0" layoutY="99.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-weight: bold;" text="SIGN IN">
+            <Text fill="WHITE" layoutX="433.0" layoutY="94.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-weight: bold;" text="SIGN IN">
                <font>
                   <Font size="42.0" />
                </font>
@@ -25,11 +25,13 @@
                   <Font size="42.0" />
                </font>
             </Button>
-            <TextField fx:id="textEmail" layoutX="116.0" layoutY="178.0" onAction="#login" promptText="email" />
-            <PasswordField fx:id="textPassword" layoutX="116.0" layoutY="227.0" onAction="#login" promptText="password" />
-            <Button layoutX="116.0" layoutY="277.0" mnemonicParsing="false" onAction="#login" text="Login" />
-            <Button layoutX="113.0" layoutY="364.0" mnemonicParsing="false" onAction="#forgotPassword" prefHeight="25.0" prefWidth="154.0" text="Forgot Password" />
-            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="116.0" layoutY="457.0" pickOnBounds="true" preserveRatio="true">
+            <TextField fx:id="textEmail" layoutX="437.0" layoutY="166.0" onAction="#login" promptText="email" />
+            <PasswordField fx:id="textPassword" layoutX="437.0" layoutY="223.0" onAction="#login" promptText="password" />
+            <Button layoutX="462.0" layoutY="276.0" mnemonicParsing="false" onAction="#login" prefHeight="34.0" prefWidth="98.0" style="-fx-background-color: #a1405f;" text="Login" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font></Button>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="437.0" layoutY="431.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@../../images/lock.png" />
                </image>

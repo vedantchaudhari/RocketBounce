@@ -20,11 +20,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="334c8ec3-93df-49fd-928d-981b889614ef" name="Default Changelist" comment="Added 'exit' button to Welcome screen.  Added images to Signup, Signin, and Welcome screens.">
-      <change afterPath="$PROJECT_DIR$/RocketBounce/src/main/MainMenuController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RocketBounce/src/main/mainmenu.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/RocketBounce/src/main/mainmenu.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RocketBounce/src/main/signin.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/RocketBounce/src/main/signin.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/RocketBounce/main/signin.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RocketBounce/main/signin.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RocketBounce/src/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/RocketBounce/src/main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RocketBounce/src/main/view/mainmenu.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/RocketBounce/src/main/view/mainmenu.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RocketBounce/src/main/view/signin.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/RocketBounce/src/main/view/signin.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RocketBounce/src/main/view/welcome.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/RocketBounce/src/main/view/welcome.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RocketBounce/main/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RocketBounce/main/Game.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RocketBounce/main/GameObject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RocketBounce/main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RocketBounce/main/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RocketBounce/main/Obstacle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RocketBounce/main/Rocket.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RocketBounce/main/Sprite.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RocketBounce/main/mainmenu.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RocketBounce/main/signin.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RocketBounce/main/signup.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RocketBounce/main/welcome.fxml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +61,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1eawZBInfK9q6vI97vwXlLmwnRM" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -122,6 +133,7 @@
       <workItem from="1596832785683" duration="3560000" />
       <workItem from="1597199242186" duration="1082000" />
       <workItem from="1597434866422" duration="5078000" />
+      <workItem from="1597854276841" duration="1705000" />
     </task>
     <task id="LOCAL-00001" summary="Database settings - able to sign into database with credentials and get to mainmenu.fxml">
       <created>1595879941436</created>
@@ -255,51 +267,52 @@
     </state>
     <state x="2467" y="88" key="CommitChangelistDialog2/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1595290816237" />
     <state x="389" y="27" width="890" height="741" key="CommitChangelistDialog2/0.27.1366.741@0.27.1366.741" timestamp="1596831473325" />
-    <state x="396" y="270" width="480" height="262" key="DetectedRootsChooserDialog" timestamp="1596564395593">
-      <screen x="0" y="27" width="1366" height="741" />
+    <state x="445" y="270" width="480" height="262" key="DetectedRootsChooserDialog" timestamp="1597854342351">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state x="445" y="270" key="DetectedRootsChooserDialog/0.0.1536.824@0.0.1536.824" timestamp="1597854342351" />
     <state x="396" y="270" width="480" height="262" key="DetectedRootsChooserDialog/0.27.1366.741@0.27.1366.741" timestamp="1596564395593" />
     <state x="2012" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1595290640492">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2012" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1595290640492" />
-    <state x="369" y="76" width="719" height="521" key="FileChooserDialogImpl" timestamp="1596833073349">
+    <state x="369" y="76" width="719" height="521" key="FileChooserDialogImpl" timestamp="1597854364101">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="2381" y="96" key="FileChooserDialogImpl/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1595283350514" />
-    <state x="369" y="76" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1596833073349" />
+    <state x="369" y="76" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1597854364101" />
     <state x="328" y="95" width="719" height="521" key="FileChooserDialogImpl/0.27.1366.741@0.27.1366.741" timestamp="1596565354519" />
-    <state width="1122" height="129" key="GridCell.Tab.0.bottom" timestamp="1597439353278">
+    <state width="1122" height="129" key="GridCell.Tab.0.bottom" timestamp="1597855410485">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1877" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1594664119363" />
     <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680/-1920.0.1920.1040@0.0.1280.680" timestamp="1594663931230" />
     <state width="1156" height="170" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1595629634913" />
-    <state width="1122" height="129" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1597439353278" />
+    <state width="1122" height="129" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1597855410485" />
     <state width="1320" height="171" key="GridCell.Tab.0.bottom/0.27.1366.741@0.27.1366.741" timestamp="1596832053429" />
-    <state width="1122" height="129" key="GridCell.Tab.0.center" timestamp="1597439353278">
+    <state width="1122" height="129" key="GridCell.Tab.0.center" timestamp="1597855410485">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1877" height="163" key="GridCell.Tab.0.center/0.0.1280.680/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1594664119363" />
     <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680/-1920.0.1920.1040@0.0.1280.680" timestamp="1594663931230" />
     <state width="1156" height="170" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1595629634913" />
-    <state width="1122" height="129" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1597439353278" />
+    <state width="1122" height="129" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1597855410485" />
     <state width="1320" height="171" key="GridCell.Tab.0.center/0.27.1366.741@0.27.1366.741" timestamp="1596832053428" />
-    <state width="1122" height="129" key="GridCell.Tab.0.left" timestamp="1597439353278">
+    <state width="1122" height="129" key="GridCell.Tab.0.left" timestamp="1597855410485">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1877" height="163" key="GridCell.Tab.0.left/0.0.1280.680/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1594664119363" />
     <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680/-1920.0.1920.1040@0.0.1280.680" timestamp="1594663931229" />
     <state width="1156" height="170" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1595629634913" />
-    <state width="1122" height="129" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1597439353278" />
+    <state width="1122" height="129" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1597855410485" />
     <state width="1320" height="171" key="GridCell.Tab.0.left/0.27.1366.741@0.27.1366.741" timestamp="1596832053428" />
-    <state width="1122" height="129" key="GridCell.Tab.0.right" timestamp="1597439353278">
+    <state width="1122" height="129" key="GridCell.Tab.0.right" timestamp="1597855410485">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1877" height="163" key="GridCell.Tab.0.right/0.0.1280.680/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1594664119363" />
     <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680/-1920.0.1920.1040@0.0.1280.680" timestamp="1594663931230" />
     <state width="1156" height="170" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1595629634913" />
-    <state width="1122" height="129" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1597439353278" />
+    <state width="1122" height="129" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1597855410485" />
     <state width="1320" height="171" key="GridCell.Tab.0.right/0.27.1366.741@0.27.1366.741" timestamp="1596832053429" />
     <state x="379" y="159" width="728" height="487" key="MultipleFileMergeDialog" timestamp="1597436691302">
       <screen x="0" y="0" width="1536" height="824" />
@@ -307,13 +320,13 @@
     <state x="337" y="140" key="MultipleFileMergeDialog/0.0.1366.728@0.0.1366.728" timestamp="1595630217441" />
     <state x="379" y="159" key="MultipleFileMergeDialog/0.0.1536.824@0.0.1536.824" timestamp="1597436691302" />
     <state x="337" y="170" width="728" height="487" key="MultipleFileMergeDialog/0.27.1366.741@0.27.1366.741" timestamp="1596831490103" />
-    <state x="145" y="0" width="1024" height="741" key="SettingsEditor" timestamp="1596833085286">
+    <state x="145" y="0" width="1024" height="741" key="SettingsEditor" timestamp="1597854375762">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="121" y="0" key="SettingsEditor/0.0.1280.680/-1920.0.1920.1040@0.0.1280.680" timestamp="1594663743800" />
     <state x="121" y="0" key="SettingsEditor/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1594761472773" />
     <state x="2102" y="0" key="SettingsEditor/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1595283364618" />
-    <state x="145" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1596833085286" />
+    <state x="145" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1597854375762" />
     <state x="129" y="27" width="1024" height="741" key="SettingsEditor/0.27.1366.741@0.27.1366.741" timestamp="1596565358291" />
     <state x="358" y="121" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1597438895273">
       <screen x="0" y="0" width="1536" height="824" />

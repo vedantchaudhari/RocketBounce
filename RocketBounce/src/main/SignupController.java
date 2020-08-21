@@ -72,6 +72,11 @@ public class SignupController implements Initializable {
             if (validateEmail(email)) {
                 infoBox("Please enter a valid email address", "Invalid Email Address", null);
             } else {
+                //saving information to profile fxml page
+                ProfileController.setLblFName(fName);
+                ProfileController.setLblLName(lName);
+                ProfileController.setLblEmail(email);
+                ProfileController.setLblUserName(uName);
 
                 infoBox("Registration Successful", "Register", null);
                 Node source = (Node) event.getSource();

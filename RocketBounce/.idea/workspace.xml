@@ -2,7 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/CreditsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ProfileController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/SettingsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/view/credits.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/view/setting.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RocketBounce.iml" beforeDir="false" afterPath="$PROJECT_DIR$/RocketBounce.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RocketBounce/main/view/profile.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RocketBounce/main/view/profile.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Controller.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/MainMenuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/MainMenuController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/SignupController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/SignupController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/view/profile.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/view/profile.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,9 +64,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="module-info" />
         <option value="Interface" />
+        <option value="FxmlFile" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -89,21 +101,21 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dynamic.classpath" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/images" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../Program Files/JavaFX/javafx-sdk-11.0.2/lib/src.zip!/" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="recentsLimit" value="5" />
     <property name="restartRequiresConfirmation" value="false" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\vedan\OneDrive\Desktop\RocketBounce\RocketBounce\src\images" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\vedan\OneDrive\Desktop\RocketBounce\RocketBounce\src\main\Resources\images" />
       <recent name="C:\Users\vedan\OneDrive\Desktop\RocketBounce\RocketBounce\src\main\Resources" />
       <recent name="C:\Users\vedan\OneDrive\Desktop\RocketBounce\RocketBounce\src\main\view" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\vedan\OneDrive\Desktop\RocketBounce\RocketBounce\src\images" />
     </key>
   </component>
   <component name="RunManager">
@@ -128,28 +140,6 @@
       <option name="testName" />
       <method />
     </configuration>
-    <configuration default="true" type="JUnit" factoryName="JUnit">
-      <option name="TEST_OBJECT" value="class" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="TestNG">
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
       <Port>5050</Port>
@@ -172,6 +162,28 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -220,59 +232,59 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1187" y="467" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1594507571441" />
-    <state x="2940" y="484" key="DetectedRootsChooserDialog" timestamp="1597804724890">
+    <state x="2940" y="484" key="DetectedRootsChooserDialog" timestamp="1598034270247">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2940" y="484" key="DetectedRootsChooserDialog/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1597804724890" />
-    <state x="1164" y="454" key="FileChooserDialogImpl" timestamp="1597888989843">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state x="2940" y="484" key="DetectedRootsChooserDialog/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1598034270247" />
+    <state x="2793" y="337" key="FileChooserDialogImpl" timestamp="1598034269406">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2793" y="337" key="FileChooserDialogImpl/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1597804723909" />
+    <state x="2793" y="337" key="FileChooserDialogImpl/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1598034269406" />
     <state x="1164" y="454" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1597888989843" />
-    <state width="2517" height="404" key="GridCell.Tab.0.bottom" timestamp="1597959583965">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state width="1877" height="178" key="GridCell.Tab.0.bottom" timestamp="1598038363243">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="175" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1597887580228" />
+    <state width="1877" height="178" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1598038363243" />
     <state width="2517" height="404" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1597959583965" />
-    <state width="2517" height="404" key="GridCell.Tab.0.center" timestamp="1597959583965">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state width="1877" height="178" key="GridCell.Tab.0.center" timestamp="1598038363243">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="175" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1597887580228" />
+    <state width="1877" height="178" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1598038363243" />
     <state width="2517" height="404" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1597959583965" />
-    <state width="2517" height="404" key="GridCell.Tab.0.left" timestamp="1597959583965">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state width="1877" height="178" key="GridCell.Tab.0.left" timestamp="1598038363242">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="175" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1597887580226" />
+    <state width="1877" height="178" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1598038363242" />
     <state width="2517" height="404" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1597959583965" />
-    <state width="2517" height="404" key="GridCell.Tab.0.right" timestamp="1597959583965">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state width="1877" height="178" key="GridCell.Tab.0.right" timestamp="1598038363243">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="175" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1597887580228" />
+    <state width="1877" height="178" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1598038363243" />
     <state width="2517" height="404" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1597959583965" />
-    <state width="2517" height="492" key="GridCell.Tab.1.bottom" timestamp="1597958946701">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state width="1877" height="256" key="GridCell.Tab.1.bottom" timestamp="1598038277321">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1597813523187" />
+    <state width="1877" height="256" key="GridCell.Tab.1.bottom/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1598038277321" />
     <state width="2517" height="492" key="GridCell.Tab.1.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1597958946701" />
-    <state width="2517" height="492" key="GridCell.Tab.1.center" timestamp="1597958946701">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state width="1877" height="256" key="GridCell.Tab.1.center" timestamp="1598038277321">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1597813523187" />
+    <state width="1877" height="256" key="GridCell.Tab.1.center/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1598038277321" />
     <state width="2517" height="492" key="GridCell.Tab.1.center/0.0.2560.1400@0.0.2560.1400" timestamp="1597958946701" />
-    <state width="2517" height="492" key="GridCell.Tab.1.left" timestamp="1597958946701">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state width="1877" height="256" key="GridCell.Tab.1.left" timestamp="1598038277321">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1597813523187" />
+    <state width="1877" height="256" key="GridCell.Tab.1.left/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1598038277321" />
     <state width="2517" height="492" key="GridCell.Tab.1.left/0.0.2560.1400@0.0.2560.1400" timestamp="1597958946701" />
-    <state width="2517" height="492" key="GridCell.Tab.1.right" timestamp="1597958946701">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state width="1877" height="256" key="GridCell.Tab.1.right" timestamp="1598038277321">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1597813523187" />
+    <state width="1877" height="256" key="GridCell.Tab.1.right/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1598038277321" />
     <state width="2517" height="492" key="GridCell.Tab.1.right/0.0.2560.1400@0.0.2560.1400" timestamp="1597958946701" />
-    <state x="937" y="287" key="SettingsEditor" timestamp="1597958085276">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state x="2387" y="85" key="SettingsEditor" timestamp="1598034277791">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2387" y="85" key="SettingsEditor/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1597806417537" />
+    <state x="2387" y="85" key="SettingsEditor/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1598034277791" />
     <state x="937" y="287" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1597958085276" />
   </component>
   <component name="XDebuggerManager">
@@ -282,6 +294,11 @@
           <url>file://$PROJECT_DIR$/src/main/model/Sprite.java</url>
           <line>17</line>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/SignupController.java</url>
+          <line>75</line>
+          <option name="timeStamp" value="14" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

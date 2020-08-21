@@ -42,7 +42,6 @@ public class SignInController implements Initializable {
     private void login(ActionEvent event) {
         String email = textEmail.getText();
         String password = textPassword.getText();
-        String fName, lName, username;
 
         String sql = "SELECT * FROM users WHERE email = ? and password = ?";
 
@@ -54,16 +53,6 @@ public class SignInController implements Initializable {
             if (!resultSet.next()) {
                 infoBox("Email and/or Password is incorrect!", "Login", null);
             } else {
-                //saving information to profile fxml page
-                fName = resultSet.getString("first_name");
-                lName = resultSet.getString("last_name");
-                username = resultSet.getString("users_id");
-                ProfileController profileController = new ProfileController();
-                profileController.setLblFName(fName);
-                profileController.setLblLName(lName);
-                profileController.setLblEmail(email);
-                profileController.setLblUserName(username);
-
                 infoBox("Login Successful", "Login", null);
                 Node source = (Node) event.getSource();
                 stage = (Stage) source.getScene().getWindow();

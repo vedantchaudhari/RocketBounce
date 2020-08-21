@@ -34,6 +34,7 @@ public class Game  {
 
     private Rocket rocket;
     private Text score_label;
+    private Text game_over_label;
 
     // Game Objects
     private Sprite ground_one, ground_two;
@@ -92,7 +93,7 @@ public class Game  {
 
         updateLabel();
 
-        root.getChildren().addAll(background_image, canvas, rocket_canvas, score_label);
+        root.getChildren().addAll(background_image, canvas, rocket_canvas, score_label, game_over_label);
         return root;
     }
 
@@ -163,6 +164,7 @@ public class Game  {
                     updateScore();
 
                     if (rocketHitObstacle()) {
+                        game_over_label.setVisible(true);
                         stopScroll();
                         motionTime += 0.18;
                         if (motionTime > 0.5) {
@@ -174,6 +176,7 @@ public class Game  {
                     }
 
                     if (rocketHitGround()) {
+                        game_over_label.setVisible(true);
                         animTimer.stop();
                         GAME_OVER = true;
                     }
@@ -191,6 +194,15 @@ public class Game  {
         score_label.setFill(Color.WHITE);
         score_label.setLayoutX(20);
         score_label.setLayoutY(80);
+
+        game_over_label = new Text("Game Over");
+        //score_label.setFont(Font.getDefault());
+        game_over_label.setFont(Font.font("Courier", FontWeight.EXTRA_BOLD, 96));
+        game_over_label.setStroke(Color.WHITE);
+        game_over_label.setFill(Color.RED);
+        game_over_label.setLayoutX(768 - game_over_label.getLayoutBounds().getWidth());
+        game_over_label.setLayoutY(384);
+        game_over_label.setVisible(false);
     }
 
     private void updateRocket() {
@@ -200,7 +212,8 @@ public class Game  {
     }
 
     private void updateObstacles() {
-        int height = (int)Math.random() * (768 - 192) + 362;
+        //int height = (int)Math.random() * (768 - 192) + 362;
+        int height = (int)(Math.random() * ((568 - 192) + 362));
 
         Obstacle up = new Obstacle(true, height);
         Obstacle down = new Obstacle(false, 768 - height);

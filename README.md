@@ -2,6 +2,7 @@
 SDEV-450 Final Project
 
 ---SETUP---
+
 JavaFX was removed from JDK 11, which just so happens to be the JDK we used for this project :') fun times. We have a small amount of JAR files that need to be added as external libraries before this project is able to run. Here are the steps:
 1) Locate the "External Libraries" folder within RocketBounce directory
 
